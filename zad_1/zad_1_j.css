@@ -1,0 +1,184 @@
+
+head{
+		color: black;
+}
+body{
+		background-color: ghostwhite;   
+		margin: 0;
+		padding: 0;
+		
+}
+
+.glavniNaslov{
+		text-align: center;
+		color:#191970;
+}
+
+#izbornik{
+		background-color: #AFEEEE;
+		text-align: center;
+}
+
+.natuknica{
+		display: inline;
+		/* list-style: none; */
+		color: black;
+		margin-right: 10px;
+		margin-top: 10 px;
+		margin-bottom: 10px;
+		
+	}
+	
+	
+	
+.slKarate{
+		text-align:center;
+}
+
+.slikaKarate{
+		display: inline-block;
+		vertical-align: top;
+}
+
+
+
+.name{
+	color:firebrick;
+	text-align: center;
+}
+
+p{
+		margin-left: 20px;
+}
+
+.osn{
+		margin-right 20px;
+}
+
+.osnovno{
+		border: 2px blue;
+		padding: 2px;
+}
+
+.clanak{
+		background-color: lightblue;
+		position: relative;   
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 600px;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+		display: flex;
+		transition: .5s;
+		height: 400px;
+		margin-top: 200px;
+}
+
+.clanak:hover{
+		box-shadow: 0 15px 30px rgba(0,0,0,.5);  /*za sjene:horizontalno, vertikalno, koliko je siroka sjena, boja*/
+}
+
+
+.clanak .sadrzaj{ 
+		padding-left: 20px;
+}
+
+.clanak .sadrzaj h1{
+	margin: 0;
+	padding-left:0;
+	color:
+}
+
+
+
+
+.clanak2{ /* box  */
+		
+		background-color: lightblue;
+		position: relative;   /*bio apsolute*/
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 600px;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+		display: flex;
+		transition: .5s;
+		/* margin-bottom: 100 px; */
+		/* padding-bottom: 30px; */
+		height: 400px;
+		 
+}
+.clanak2:hover{
+		box-shadow: 0 15px 30px rgba(0,0,0,.5);  /*za sjene:horizontalno, vertikalno, koliko je siroka sjena, boja*/
+}
+
+.clanak2 .slika{  /* imgBx */
+		width: 150px;
+		flex: 0 0 150px;
+}
+
+.clanak2 .slika img{
+		max-width: 100%;
+		border-radius: 50%;  /*za sliku u krugu*/
+}
+.clanak2 .sadrzaj{ /* content */
+		padding-left: 20px;
+}
+
+.clanak2 .sadrzaj h1{
+	margin: 0;
+	padding-left:0;
+	color:
+}
+
+.textkate{
+		display: inline;
+		
+}
+
+/*ZADNJI CLANAK*/
+
+.posebanSam{
+		background-color: lightblue;
+		position: relative;   /*bio apsolute*/
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 600px;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 4px;
+		box-shadow: 0 5px 15px rgba(0,0,0,.5);
+		display: flex;
+		transition: .5s;
+		height: 600px;
+		margin-top: 80px;
+}
+
+.posebanSam:hover{
+		box-shadow: 0 15px 30px rgba(0,0,0,.5);  /*za sjene:horizontalno, vertikalno, koliko je siroka sjena, boja*/
+}
+
+.posebanSam .sadrzaj{ 
+		padding-left: 20px;
+}
+
+.posebanSam .sadrzaj h1{
+	margin: 0;
+	padding-left:0;
+	color:
+}
+.natjecatelji{
+		margin-left:auto;
+		margin-right: auto;
+}
+
+.broj{
+		text-align: center;
+}

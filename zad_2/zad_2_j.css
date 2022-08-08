@@ -1,0 +1,98 @@
+
+head{
+	color: black;
+}
+
+body{
+	background-color: beige; /*#F5F5DC*/
+	margin: 0;
+	padding: 0;
+}
+
+/* @media(max-width: 600px){ */
+	/* .sve{ */
+		/* width:100%; */
+		/* float:none; */
+	/* } */
+/* } */
+
+.mainTitle{
+	text-align:center;
+	
+}
+
+a{
+	text-decoration: none;
+	color: SeaShell;
+	padding: 20px;
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active{
+	color: darkGreen;
+}
+
+
+
+#topics{
+	text-align: center;
+	background-color: DarkSeaGreen;
+	margin: 20px;
+	padding:8px;
+}
+
+
+.top{
+	display: inline;
+	
+}
+
+
+.topic1{
+	width: 40%;
+	border: 3px dashed green ;
+	margin-top: 20px;
+	margin-right: 25px;
+	margin-left: 25px;
+	/* margin-bottom: 30px; */
+	
+	float: left;
+	padding: 10 px;
+	margin-left: 70px;
+	box-sizing: border-box;
+	
+}
+
+.topic1 h1{
+	letter-spacing: 0.2em; 
+	text-align: center;  	
+}
+
+.text1{
+	text-align: center;
+	padding:5px;
+}
+
+
+.topic2{
+	width: 40%;
+	border: 3px dashed green ;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-left: 25px;
+
+	float: right;
+	padding: 10 px;
+	margin-right:70px;
+	box-sizing: border-box;
+}
+
+.topic2 h1{
+	letter-spacing: 0.2em;   /*pazi da je em uz broj*/
+	text-align: center; 
+}
+
+

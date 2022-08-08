@@ -1,0 +1,103 @@
+
+body{
+		font-family:Arial;
+}
+
+.mainTitle{
+	color: DarkGreen;
+}
+
+a{
+	text-decoration: none;
+	color: SeaShell;
+	padding: 20px;
+}
+
+a:hover{
+	color:yellow;
+}
+
+a:active{
+	color: darkGreen;
+}
+
+#topics{
+	text-align: center;
+	background-color: DarkSeaGreen;
+	margin: 20px;
+	padding: 8px;
+}
+.top{
+	display: inline;
+	
+}
+
+.textAbout{
+	 color: DarkGoldenRod;
+}
+
+.text{
+	margin:20px;
+	border: 2px dashed darkGreen;
+	padding: 5px;
+}
+
+.slikaIvideo{
+	margin-left: 20px;
+}
+
+.slika{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+img {
+	  border: 1px solid purple;
+	  border-radius: 4px;
+	  padding: 5px;
+	  width: 500px;
+}
+
+.video{
+	width: 40%;
+	float: right;
+	margin-right: 20px;
+	padding: 20px;
+	padding-top: 100px;
+	padding-right: 200px;
+	
+}
+
+
+ iframe{ 
+	float: right;
+ } 
+ 
+ /* ----------za drugi dio------------ */
+ 
+ 
+ #mainTitle{
+	color: DarkGreen;
+}
+
+.textContact{
+	 color: black;
+}
+
+.drugi{
+	margin:20px;
+	border: 2px dashed darkGreen;
+	padding: 5px;
+	box-sizing: border-box;
+	float:right;
+	/* box-align: center; */
+	margin-right: 500px;
+	margin-top:100px;
+}
+
+/* .slikaDva{ */
+  /* max-width: 100%; */
+  /* height: auto; */
+  /* opacity: 0.5; */
+ /* }  */

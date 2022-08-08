@@ -1,0 +1,406 @@
+
+
+/* gradient beckgroound */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;	
+}
+
+header{
+	position: relative;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header.logo{
+	position: relative;
+	
+}
+
+.logooo{
+	width: 120px;
+}
+
+.group{
+	position: relative;
+	display: flex;
+}
+
+.group .navigation,
+.group .action{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.group ul li{
+	list-style: none;
+}
+
+.group ul li a{
+	color: #222;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+.group ul li a:hover{
+	color: #00cccc;
+}
+
+.group .action{
+	margin-left: 20px;
+}
+
+.group .action li a{
+	font-size: 1.25em;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	padding: 0 100px;
+}
+
+.banner .backg{
+	position: relative;
+	width: 100%;
+	height: 75vh;
+	background: #555;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.content{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content h2{
+	position: relative;
+	color: white;
+	font-size: 6em;
+}
+
+.btn{
+	display: inline-block;
+	background-color: #00e6e6;
+	color: white;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 1.1em;
+	margin-top: 20px;
+	letter-spacing: 2px;
+}
+
+.searchBox{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	/* ovo */
+	background: #fff;
+	padding: 30px 50px;
+	transform: translateY(50%);
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+.searchBox .inputBx{
+	margin: 0 20px;
+}
+
+.searchBox .inputBx p{
+	color:#222;
+	margin-bottom: 10px;;
+}
+
+
+.searchBox .inputBx p.white{
+	color: #fff;
+}
+
+.searchBox .inputBx input{
+	border: 1px solid black;
+	outline: none;
+	padding: 10px;
+	width: 100%;
+	min-width: none;
+	font-size: 1.1em;
+}
+
+.searchBox .inputBx input[type="Submit"]{
+	border: none;
+	outline: none;
+	background: #00e6e6;
+
+	color: white;
+	cursor: pointer;
+	letter-spacing: 2px;
+	padding: 13px;
+	
+}
+
+/* CONTACT */
+/* .contact{ */
+	/* position: relative; */
+	/* left: 300px; */
+	/* top: 100px; */
+	
+/* } */
+
+
+.contact h1{
+	text-align: center;
+	font-family: Jazz LET, fantasy;
+	/* font-style: oblique; */
+	font-size: 50px;
+	text-shadow: 3px 3px lightgrey;
+	color: #404040;
+	
+}
+
+.cont{
+	text-shadow: 2px 2px black;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 600px;
+	height: 220px;
+	/* padding-left: 10px; */
+	position: absolute;
+	z-index:2;
+	left: 450px;
+	top: 230px;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+	box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.titleContact{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+.contact p{
+	margin-left: 20px;
+	font-size: 1.2em;
+}
+
+.contact p a{
+	margin-left: 20px;
+	font-size: 2em;
+	color: #00e6e6;
+}
+
+.picture{
+	position: relative;
+	top: 230px;
+	left: 50px;
+}
+
+.p1{
+	position: absolute;
+	left: 10px;
+	top: 70px;
+}
+
+.p2{
+	position: absolute;
+	top: 20px;
+	left: 900px;
+}
+
+
+/* ABOUT */
+
+.txt{
+	position: absolute;
+	background-image: linear-gradient(#22c1c3, #fdbb2d);
+}
+/* .textAbout1 { */
+	/* position: absolute; */
+	/* left: 50px; */
+	/* top: 20px; */
+	/* width: 1300px; */
+	/* padding-bottom: 20px; */
+/* } */
+
+/* .textAbout2 { */
+	/* position: absolute; */
+	/* left: 50px; */
+	/* top: 300px; */
+	/* width: 1300px; */
+	/* padding-bottom: 20px; */
+/* } */
+
+/* .txt h1, */
+/* .txt p */
+/* { */
+	/* position: absolute;  */
+	/* left: 50px; */
+/* } */
+
+.txt{
+	height:700px;
+	width:100%;
+	
+}
+.title1{
+	position: absolute;
+	top:20px;
+	left: 50px;
+	width:100%;
+	color:white;
+}
+
+.text1{
+	position: absolute; 
+	left: 50px;
+	top:80px;
+	width:1400px;
+	color:white;
+}
+
+.title2{
+	position: absolute; 
+	left: 50px;
+	top:230px;
+	width:100%;
+	color:white;
+}
+
+.text2{
+	position: absolute; 
+	left: 50px;
+	top:290px;
+	width:100%;
+	color:white;
+}
+
+/* .sl{ */
+	/* background-image: url(bus.png); */
+	/* background-repeat: no-repeat; */
+	/* height: 500px; /* You must set a specified height */ */
+	/* background-position: down; */
+	/* background-size: cover; */
+	/* top: 20px; */
+/* } */
+
+.bus{
+	position:relative;
+}
+
+.buss{
+	position: absolute;
+	top: 330px;
+	left: 300px;
+	height: 500px;
+	
+}
+/* .img .sl{ */
+	/* position: absolute; */
+	/* top: 330px; */
+	/* left: 300px; */
+	/* height: 500px; */
+/* } */
+
+/* DESTINATION */
+
+.naslov h1{
+	text-align: center;
+	font-family: Jazz LET, fantasy;
+	font-size: 50px;
+	text-shadow: 3px 3px lightgrey;
+	color: #404040;
+	
+}
+
+.txt1{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+.txt2{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 200px;
+}
+.txt3{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 470px;
+}
+.txt4{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 840px;
+}
+.txt5{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 1140px;
+}
+.txt6{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 1620px;
+}
+.txt7{
+	width: 600px;
+	position: absolute;
+	left: 50px;
+	top: 1850px;
+	padding-bottom: 100px;
+}
+
+.container{
+	background-color: #b8eded;
+	width: 700px;
+	height: 2000px;
+	position:absolute;
+	left:40px;
+	top:200px;
+	
+}
+
+.temple-img{
+	width:1530px;
+}
+
+.train-img{
+	width:1530px;
+	height:700px;
+}
+
+.tea-img{
+	width:1530px;
+}
+
+
